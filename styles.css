@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+}
+input {
+    width: 100%;
+    padding: 5px;    
+    font-size: 2rem;
+    text-align: right;
+}
+
+.calculator {
+    width: 400px;
+    background-color: grey;
+}
+.calculator>div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.calculator>div>button {
+    display: block;
+    width: 25%;
+    height: 5rem;
+}
